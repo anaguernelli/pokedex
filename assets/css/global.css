@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    /* considerar a borda */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.pokedex-content {
+    width: 100vh;
+    /* rem é maleável, baseado no tamanho da fonte.
+    se o browser da pessoa a fonte for maior maior
+    o espaçamento vai ser maior. px é fixo */
+    padding: 1rem;
+    background-color: #fff;
+    height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+    .pokedex-content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}

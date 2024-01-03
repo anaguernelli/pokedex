@@ -10,12 +10,12 @@ body {
 
 .pokedex-content {
     width: 100vh;
+    height: 100vh;
     /* rem é maleável, baseado no tamanho da fonte.
-    se o browser da pessoa a fonte for maior maior
+    se o browser da pessoa a fonte for maior,
     o espaçamento vai ser maior. px é fixo */
     padding: 1rem;
     background-color: #fff;
-    height: 100vh;
 }
 
 @media screen and (min-width: 992px) {
